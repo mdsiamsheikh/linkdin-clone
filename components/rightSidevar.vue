@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="sheikh">
     <div class="right_side">
       <div class="news">
         <h4>Add to your feed</h4>
@@ -20,15 +20,7 @@
       </div>
       <div class="latest_news">
         <div class="one">
-          <img
-            width="200"
-            title="Nasim Uddin"
-            src="https://media-exp1.licdn.com/dms/image/C5603AQGPDH-gd2Tcpg/profile-displayphoto-shrink_200_200/0/1647208745676?e=1669248000&amp;v=beta&amp;t=IKwb3S4qr4bK0ORwlGkE_PSliE5KHm8JOs9wioA2EYY"
-            height="200"
-            alt="Nasim Uddin"
-            id="ember510"
-            class="pv-top-card-profile-picture__image pv-top-card-profile-picture__image--show ember-view"
-          />
+          <img width="" src="../static/img/313424696 1.jpg" height="" alt="" />
           <div class="two">
             <h4>Nasim Uddin</h4>
             <a href="#"> Ceo @ Mullo | Rasing pre-Seed</a><br />
@@ -52,17 +44,14 @@
       <div class="latest_new">
         <div class="ones">
           <img
-            width="48"
-            src="https://media-exp1.licdn.com/dms/image/C560BAQETh_sGrh0kug/company-logo_100_100/0/1660825519539?e=1671667200&amp;v=beta&amp;t=Hn3Xg_loHzoS60zsmQiFZ3L3yk0ge3KZyem50Rf5RLY"
-            loading="lazy"
-            height="48"
-            alt="Mullokoto"
-            id="ember174"
-            class="lazy-image ember-view EntityPhoto-circle-3"
+            width="64"
+            src="../static/img/6569693138424572676 2.jpg"
+            height="64"
+            alt=""
           />
           <div class="twos">
-            <h4>Mullokoto</h4>
-            <a href="#"> Company . Computer Softwate</a><br />
+            <h4>MD Nasir Uddin</h4>
+            <a href="#"> Ceo Connekt.Studio</a><br />
             <button class="btn-follows">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -83,13 +72,10 @@
       <div class="latest_newok">
         <div class="oness">
           <img
-            width="48"
-            src="https://media-exp1.licdn.com/dms/image/C560BAQHa9Vs286lN2A/company-logo_100_100/0/1646374989368?e=1671667200&amp;v=beta&amp;t=dyJjf-jb4bezQXKzYavXlIKqMjiOA_c2cEvtYd5lvFs"
-            loading="lazy"
-            height="48"
-            alt="Connekt Camp"
-            id="ember523"
-            class="ivm-view-attr__img--centered EntityPhoto-square-3 lazy-image ember-view"
+            width="64"
+            src="../static/img/1646374989368 3.jpg"
+            height="64"
+            alt=""
           />
           <div class="twoss">
             <h4>Connekt Camp</h4>
@@ -163,6 +149,10 @@ export default {};
 </script>
 
 <style>
+.sheikh {
+  /* display: block;
+  position: fixed; */
+}
 .right_side {
   background: #ffffff;
   border-radius: 0.6rem;
@@ -303,5 +293,11 @@ section .footer-hiring .linkein {
 section .footer-hiring .linkein h5 {
   color: #a5a4a2;
   font-size: 0.7rem;
+}
+
+@media (max-width: 765px) {
+  .sheikh {
+    display: none;
+  }
 }
 </style>

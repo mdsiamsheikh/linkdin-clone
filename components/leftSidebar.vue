@@ -1,16 +1,14 @@
 <template>
-  <aside>
+  <aside class="siam">
     <div class="sidebar">
       <div class="top"></div>
       <img
         width="64"
-        src="https://media-exp1.licdn.com/dms/image/C5603AQGgW-kYRvEhHQ/profile-displayphoto-shrink_100_100/0/1658998691881?e=1668643200&amp;v=beta&amp;t=X-5hgaHsF-Aw9U9kF0TjviVDbe04xX9pnRghSrGCcxo"
-        loading="lazy"
+        src="../static/img/Picsart_22-12-22_19-57-07-382.jpg"
         height="64"
-        alt="Photo of Md Siam Sheikh"
-        id="ember219"
-        class="feed-identity-module__member-photo EntityPhoto-circle-5 lazy-image ember-view"
+        alt=""
       />
+
       <div class="profile">
         <a href="#">Md Siam Sheikh</a>
         <h5>front-end developer</h5>
@@ -109,11 +107,7 @@ aside .sidebar {
   height: 37vh;
   position: relative;
   border-radius: 0.6rem;
-  overflow: hidden;
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  width: 400px; */
+  /* overflow: hidden; */
 }
 .sidebar .top {
   width: 100%;

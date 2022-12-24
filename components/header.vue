@@ -126,11 +126,9 @@
           <div class="me">
             <img
               width="26"
-              src="https://media-exp1.licdn.com/dms/image/C5603AQGgW-kYRvEhHQ/profile-displayphoto-shrink_100_100/0/1658998691881?e=1668038400&amp;v=beta&amp;t=u-gYy-t302s2TB-P6_Utcbm-PR1_ulGdydWvbeiC3Jo"
+              src="../static/img/Picsart_22-12-22_19-57-07-382.jpg"
               height="26"
-              alt="Md Siam Sheikh"
-              id="ember17"
-              class="global-nav__me-photo ember-view"
+              alt=""
             />
             <div class="down">
               <h5>Me</h5>
@@ -179,11 +177,11 @@
               </svg>
             </div>
           </div>
-          <div>
+          <!-- <div>
             <a href="#"
               ><h5>Learm New Skills,<br />Try Premium Free</h5></a
             >
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -206,8 +204,10 @@ body {
 }
 .wrapper {
   background: white;
+  /* overflow-y: scroll; */
   position: fixed;
-  z-index: 9999;
+  z-index: +1;
+
   top: 0;
   left: 0;
   width: 100%;
@@ -234,7 +234,7 @@ nav .wrapper .contener .right {
 }
 nav .wrapper .contener .left {
   padding-left: 2rem;
-  display: flex;
+  /* display: flex; */
   gap: 0.2rem;
 }
 nav .wrapper .contener .right {
@@ -336,5 +336,16 @@ nav .wrapper .right .work .down {
 }
 .wrapper a {
   text-decoration: underline;
+}
+
+@media (max-width: 965px) {
+  .input input {
+    display: none;
+  }
+  @media (max-width: 865px) {
+    .work .down {
+      display: none;
+    }
+  }
 }
 </style>

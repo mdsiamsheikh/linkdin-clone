@@ -4,12 +4,9 @@
       <div class="search">
         <img
           width="64"
-          src="https://media-exp1.licdn.com/dms/image/C5603AQGgW-kYRvEhHQ/profile-displayphoto-shrink_100_100/0/1658998691881?e=1668643200&amp;v=beta&amp;t=X-5hgaHsF-Aw9U9kF0TjviVDbe04xX9pnRghSrGCcxo"
-          loading="lazy"
+          src="../static/img/Picsart_22-12-22_19-57-07-382.jpg"
           height="64"
-          alt="Photo of Md Siam Sheikh"
-          id="ember219"
-          class="feed-identity-module__member-photo EntityPhoto-circle-5 lazy-image ember-view"
+          alt=""
         />
         <input
           @change="addItems"
@@ -94,12 +91,9 @@
         <div class="post_header">
           <img
             width="64"
-            src="https://media-exp1.licdn.com/dms/image/C5603AQGgW-kYRvEhHQ/profile-displayphoto-shrink_100_100/0/1658998691881?e=1668643200&amp;v=beta&amp;t=X-5hgaHsF-Aw9U9kF0TjviVDbe04xX9pnRghSrGCcxo"
-            loading="lazy"
+            src="../static/img/Picsart_22-12-22_19-57-07-382.jpg"
             height="64"
-            alt="Photo of Md Siam Sheikh"
-            id="ember219"
-            class="feed-identity-module__member-photo EntityPhoto-circle-5 lazy-image ember-view"
+            alt=""
           />
           <div v-for="item in userData" :key="item.id" class="post_info">
             <h3>{{ item.title }}</h3>
@@ -183,12 +177,9 @@
         <div class="show_profiles">
           <img
             width="64"
-            src="https://media-exp1.licdn.com/dms/image/C5603AQGgW-kYRvEhHQ/profile-displayphoto-shrink_100_100/0/1658998691881?e=1668643200&amp;v=beta&amp;t=X-5hgaHsF-Aw9U9kF0TjviVDbe04xX9pnRghSrGCcxo"
-            loading="lazy"
+            src="../static/img/Picsart_22-12-22_19-57-07-382.jpg"
             height="64"
-            alt="Photo of Md Siam Sheikh"
-            id="ember219"
-            class="feed-identity-module__member-photo EntityPhoto-circle-5 lazy-image ember-view"
+            alt=""
           />
           <div class="box">
             <h3>Md Siam Sheikh</h3>
@@ -196,7 +187,12 @@
           </div>
         </div>
         <div class="post_imgs">
-          <img src="../asices/img/img_2-removebg-preview.png" />
+          <img
+            width="64"
+            src="../static/img/Picsart_22-12-22_19-57-07-382.jpg"
+            height="64"
+            alt=""
+          />
         </div>
         <div class="like_send">
           <div class="like_share">
@@ -272,13 +268,10 @@
       <div class="show-profiles">
         <div class="shows_profiles">
           <img
-            width="48"
-            src="https://media-exp1.licdn.com/dms/image/C560BAQHa9Vs286lN2A/company-logo_100_100/0/1646374989368?e=1671667200&amp;v=beta&amp;t=dyJjf-jb4bezQXKzYavXlIKqMjiOA_c2cEvtYd5lvFs"
-            loading="lazy"
-            height="48"
-            alt="Connekt Camp"
-            id="ember523"
-            class="ivm-view-attr__img--centered EntityPhoto-square-3 lazy-image ember-view"
+            width="64"
+            src="../static/img/1646374989368 3.jpg"
+            height="64"
+            alt=""
           />
           <div class="boxs">
             <h3>CONNEKT STUDIO</h3>
@@ -287,13 +280,10 @@
         </div>
         <div class="posts_imgs">
           <img
-            width="600"
-            src="https://media-exp1.licdn.com/dms/image/C5622AQEgT7qJ3g9_tA/feedshare-shrink_800/0/1659105969856?e=1666828800&amp;v=beta&amp;t=d4rFh84AIYHd4JSxhsLrnW3v4xJL61RLQwNGLsF87Mw"
-            loading="lazy"
-            height="600"
-            alt="graphical user interface, application"
-            id="ember329"
-            class="ivm-view-attr__img--centered feed-shared-image__image feed-shared-image__image--constrained lazy-image ember-view"
+            width="64"
+            src="../static/img/1658988975 4.jpg"
+            height="64"
+            alt=""
           />
         </div>
         <div class="like_sends">
@@ -417,6 +407,7 @@ main .main-section .search input {
   width: 100%;
   padding: 0 0.8rem;
   cursor: pointer;
+  position: relative;
 }
 main .main-section .search input:hover {
   background: #ebebeb;
@@ -436,6 +427,7 @@ main .main-section .poshts .posht {
   padding: 0.3rem 0.4rem 0.9rem;
   border-radius: 0.3rem;
   cursor: pointer;
+  position: relative;
   padding: 0.7rem;
 }
 main .main-section .poshts .posht:hover {
