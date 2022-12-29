@@ -194,6 +194,7 @@ export default {};
 
 <style>
 * {
+  top: 0;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -338,12 +339,12 @@ nav .wrapper .right .work .down {
   text-decoration: underline;
 }
 
-@media (max-width: 965px) {
+@media (max-width: 565px) {
   .input input {
     display: none;
   }
   @media (max-width: 865px) {
-    .work .down {
+    .home {
       display: none;
     }
   }

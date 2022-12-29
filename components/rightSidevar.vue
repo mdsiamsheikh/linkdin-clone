@@ -150,8 +150,7 @@ export default {};
 
 <style>
 .sheikh {
-  /* display: block;
-  position: fixed; */
+  display: inline-block;
 }
 .right_side {
   background: #ffffff;
@@ -186,6 +185,11 @@ export default {};
   font-size: 0.7rem;
   color: #a4a4a4;
 }
+
+/* .btn-follow {
+  position: sticky;
+  top: 0;
+} */
 .right_side .latest_news .one .two .btn-follow {
   margin-top: 0.2rem;
   display: flex;
@@ -199,6 +203,9 @@ export default {};
   font-size: 1rem;
   border-radius: 5rem;
   border: 1px solid #5e5e5e;
+  position: sticky;
+  margin: 0;
+  top: 0;
 }
 .right_side .latest_news .one .two .btn-follow:hover {
   color: #5e5e5e;

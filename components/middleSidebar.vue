@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="md-si">
     <div class="main-section">
       <div class="search">
         <img
@@ -384,10 +384,14 @@ export default {
 </script>
 
 <style>
+.md-si {
+  display: inline-block;
+}
 main .main-section {
   background: #ffffff;
   border-radius: 0.6rem;
   height: 14.7vh;
+  width: 100%;
   border: 1px solid #b2b2b2;
 }
 main .main-section .search {

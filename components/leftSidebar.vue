@@ -101,6 +101,9 @@ export default {};
 </script>
 
 <style>
+.siam {
+  display: inline-block;
+}
 aside .sidebar {
   background: #ffffff;
   width: 100%;
@@ -288,5 +291,11 @@ aside .recent-jobs .recents a:hover {
 .discover a {
   text-decoration: none;
   color: #7b7b7b;
+}
+
+@media (max-width: 765px) {
+  .siam {
+    display: none;
+  }
 }
 </style>
