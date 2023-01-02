@@ -18,12 +18,26 @@ export default {
 </script>
 <style>
 .item-container {
-  margin-top: 100px !important;
+  margin-top: 85px !important;
   display: grid;
   grid-template-columns: 20% 50% 27%;
   width: 84%;
   max-width: 1200px;
-  margin: 1.25rem auto;
+  margin: 88px auto;
   gap: 2rem;
+  align-content: center;
+}
+
+@media (max-width: 765px) {
+  .item-container {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 765px) {
+  .item-container {
+    display: flex;
+    align-content: center;
+  }
 }
 </style>

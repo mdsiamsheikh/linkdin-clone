@@ -302,7 +302,7 @@ section .footer-hiring .linkein h5 {
   font-size: 0.7rem;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 865px) {
   .sheikh {
     display: none;
   }
