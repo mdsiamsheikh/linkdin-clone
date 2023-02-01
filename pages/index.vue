@@ -28,7 +28,7 @@
           required="required"
           v-model="userName"
         />
-        <input type="text" name="di" placeholder="Profile URL (optional)" />
+
         <input
           type="text"
           name="di"
@@ -64,7 +64,11 @@ export default {
     register() {
       firebase
         .auth()
-        .createUserWithEmailAndPassword(this.email, this.password)
+        .createUserWithEmailAndPassword(
+          this.email,
+          this.password,
+          this.userName
+        )
         .then((response) => {
           alert("success");
           console.log(response);
@@ -74,6 +78,7 @@ export default {
           alert("failure");
           console.log(error);
         });
+      (this.email = ""), (this.password = ""), (this.userName = "");
     },
   },
 };
