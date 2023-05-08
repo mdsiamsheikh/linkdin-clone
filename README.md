@@ -1,4 +1,4 @@
-# linkedin-colon
+# linkedin-clone
 
 ## Build Setup
 
