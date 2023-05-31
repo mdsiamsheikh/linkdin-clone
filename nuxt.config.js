@@ -3,7 +3,7 @@ export default {
   mode: "spa",
 
   head: {
-    title: "linkedin-colon",
+    title: "linkedin-clone",
     htmlAttrs: {
       lang: "en",
     },
