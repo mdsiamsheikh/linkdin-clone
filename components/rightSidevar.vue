@@ -118,7 +118,7 @@
     </div>
     <div class="footer-hiring">
       <div class="footer">
-        <img src="../asices/img/on Linkedin.png" />
+        <img src="../asices/image/on Linkedin.png" />
       </div>
       <div class="linkein">
         <svg
