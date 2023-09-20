@@ -20,7 +20,7 @@
       </div>
       <div class="latest_news">
         <div class="one">
-          <img width="" src="../static/img/313424696 1.jpg" height="" alt="" />
+          <img width="" src="../asices/image/nasim.jpg" height="" alt="" />
           <div class="two">
             <h4>Nasim Uddin</h4>
             <a href="#"> Ceo @ Mullo | Rasing pre-Seed</a><br />
@@ -43,12 +43,7 @@
       </div>
       <div class="latest_new">
         <div class="ones">
-          <img
-            width="64"
-            src="../static/img/6569693138424572676 2.jpg"
-            height="64"
-            alt=""
-          />
+          <img width="64" src="../asices/image/nasir.jpg" height="64" alt="" />
           <div class="twos">
             <h4>MD Nasir Uddin</h4>
             <a href="#"> Ceo Connekt.Studio</a><br />
