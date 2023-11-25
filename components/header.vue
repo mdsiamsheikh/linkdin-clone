@@ -203,7 +203,7 @@ export default {
   methods: {
     async handleLogOut() {
       try {
-        await this.$store.dispatch("logout");
+        await this.$store.dispatch(null);
         this.$router.push("/signin");
       } catch (error) {
         alert(error);

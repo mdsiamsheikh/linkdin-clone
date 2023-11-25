@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <header-vue></header-vue>
     <Nuxt></Nuxt>
   </div>
@@ -14,4 +14,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.container {
+  max-width: 1300px;
+  margin: auto;
+  /* padding: 0 2rem; */
+}
+</style>

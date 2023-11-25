@@ -1,4 +1,5 @@
 import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
 const firebaseConfig = {
   apiKey: "AIzaSyB1H-Ws3GnzLkdMPs2VQ_oUz8MEF4z_TeQ",
   authDomain: "linkedin-f162b.firebaseapp.com",
@@ -11,3 +12,13 @@ const firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+
+export default function ({ store }) {
+  firebase.auth().onAuthStateChanged((user) => {
+    if (user) {
+      store.commit("SET_USER", user);
+    } else {
+      store.commit("SET_USER", null);
+    }
+  });
+}
