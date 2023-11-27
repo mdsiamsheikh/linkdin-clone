@@ -493,7 +493,6 @@
           <br />
 
           <p>{{ item.title }}</p>
-          <p></p>
         </div>
       </div>
 

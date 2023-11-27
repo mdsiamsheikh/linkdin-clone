@@ -45,7 +45,7 @@
         />
         <button type="submit" class="btn-secondery">Accept and Resister</button>
       </form>
-      <p>Already resisterd? <a href="#">Login</a></p>
+      <p>Already resisterd? <NuxtLink to="/Login"> About page </NuxtLink></p>
     </div>
   </div>
 </template>
