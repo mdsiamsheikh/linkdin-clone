@@ -194,7 +194,7 @@
               </button>
             </div>
             <div id="artdeco-gen-42" class="ember-view">
-              <div id="ember62" class="ember-view"></div>
+              <div id="ember62" class="ember-view">{{}}</div>
             </div>
           </span>
         </span>

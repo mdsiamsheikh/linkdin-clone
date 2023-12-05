@@ -364,6 +364,12 @@ header {
   flex-direction: column;
 }
 
+.profile-me img {
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+}
+
 .nuxt-me {
   display: flex;
   align-items: center;
