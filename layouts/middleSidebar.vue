@@ -194,7 +194,7 @@
               </button>
             </div>
             <div id="artdeco-gen-42" class="ember-view">
-              <div id="ember62" class="ember-view">{{}}</div>
+              <div id="ember62" class="ember-view"></div>
             </div>
           </span>
         </span>
@@ -485,18 +485,18 @@
         </div>
       </div>
     </div>
-    <div class="show-profile" v-for="item in items" :key="item">
+    <div class="show-profile">
       <div class="box">
-        <img class="profile-image" :src="item.url" alt="" />
+        <img class="profile-image" src="" alt="sdfsd" />
         <div class="mt-1">
-          <a>{{ item.name }}</a>
+          <a>siam</a>
           <br />
 
-          <p>{{ item.title }}</p>
+          <!-- <p>{{ item.title }}</p> -->
         </div>
       </div>
 
-      <img class="post-image" :src="item.profileurl" alt="" />
+      <img class="post-image" src="../static/img/Picsart_22.jpg" alt="" />
 
       <div class="react">
         <span
