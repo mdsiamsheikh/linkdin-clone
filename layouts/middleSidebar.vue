@@ -487,12 +487,16 @@
     </div>
     <div class="show-profile">
       <div class="box">
-        <img class="profile-image" src="" alt="sdfsd" />
+        <img
+          class="profile-image"
+          src="../static/img/Picsart_22.jpg"
+          alt="sdfsd"
+        />
         <div class="mt-1">
-          <a>siam</a>
+          <a>md siam sheikh</a>
           <br />
 
-          <!-- <p>{{ item.title }}</p> -->
+          <p>Frontend Developer at CONNEKT STUDIO</p>
         </div>
       </div>
 
