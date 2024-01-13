@@ -43,9 +43,11 @@
           required="required"
           v-model="password"
         />
-        <button type="submit" class="btn-secondery">Accept and Resister</button>
+        <button type="submit" class="btn-secondery">
+          Accept and Registration
+        </button>
       </form>
-      <p>Already resisterd? <NuxtLink to="/Login"> About page </NuxtLink></p>
+      <p>Already resisterd? <NuxtLink to="/signin"> Signin page </NuxtLink></p>
     </div>
   </div>
 </template>

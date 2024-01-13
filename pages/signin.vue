@@ -75,7 +75,7 @@ export default {
     async loginUser() {
       try {
         this.isLoading = true;
-        await this.$store.dispatch("login", {
+        await this.$store.dispatch("/login", {
           email: this.user.email,
           password: this.user.password,
         });
