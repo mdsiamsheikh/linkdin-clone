@@ -40,12 +40,10 @@
       </div>
     </div>
     <div class="feed-box">
-      <img src="../asices/image/nasir.jpg" alt="" />
+      <img src="../asices/image/polash1.jpg" alt="" />
       <div>
-        <h3>Toptal</h3>
-        <a href="#">
-          Web3 Builder / Founder, Wind.app & Pathao / Forbes 30U30</a
-        >
+        <h3>Polash Ahmad</h3>
+        <a href="#"> Full Stack Developer</a>
         <button class="btn-follow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
