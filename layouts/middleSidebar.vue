@@ -106,7 +106,7 @@
           class="profile-photo"
         />
         <div class="mt-1">
-          <a>{{ post.username }}</a>
+          <p>{{ post.username }}</p>
           <br />
 
           <p>{{ post.useremail }}</p>
