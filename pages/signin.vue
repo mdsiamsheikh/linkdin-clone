@@ -47,11 +47,11 @@
         <div class="or">or</div>
         <div class="border"></div>
       </div>
-      <!-- <button class="google-login mb-1" @click="loginWithGoogle">
-          <img src="../assets/image/google.webp" alt="Google Icon" />
-          <span>Login with Google</span>
-        </button> -->
-      <p>New to linkedin?<nuxt-link to="/signin"> Join now</nuxt-link></p>
+      <button class="google-login mb-1" @click="loginWithGoogle">
+        <img src="../asices/image/Google__logo.png" alt="Google Icon" />
+        <span>Login with Google</span>
+      </button>
+      <p>New to linkedin?<nuxt-link to="/feed"> Join now</nuxt-link></p>
     </div>
   </div>
 </template>
@@ -79,7 +79,7 @@ export default {
           email: this.user.email,
           password: this.user.password,
         });
-        this.$router.push("/feed");
+        this.$router.push("/signin");
       } catch (error) {
         alert(error);
         this.$router.push("/");

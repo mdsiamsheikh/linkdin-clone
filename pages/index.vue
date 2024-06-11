@@ -46,6 +46,10 @@
         <button type="submit" class="btn-secondery">
           Accept and Registration
         </button>
+        <button class="google-login mb-1" @click="loginWithGoogle">
+          <img src="../asices/image/Google__logo.png" alt="Google Icon" />
+          <span>Login with Google</span>
+        </button>
       </form>
       <p>Already resisterd? <NuxtLink to="/signin"> Signin page </NuxtLink></p>
     </div>
@@ -81,6 +85,15 @@ export default {
           console.log(error);
         });
       (this.email = ""), (this.password = ""), (this.userName = "");
+    },
+    async loginWithGoogle() {
+      try {
+        const provider = new firebase.auth.GoogleAuthProvider();
+        await firebase.auth().signInWithPopup(provider);
+        this.$router.push("/feed");
+      } catch (error) {
+        console.log(error);
+      }
     },
   },
 };
@@ -174,5 +187,35 @@ body {
   display: flex;
   justify-content: center;
   font-size: 1rem;
+}
+
+/*  google lognin*/
+.google-login {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 35px;
+  color: black;
+  font-family: Roboto, HelveticaNeue, Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid #0a7dd4;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.google-login img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.google-login span {
+  color: #0a7dd4;
+  font-size: 1.1rem;
+  display: inline-block;
+  font-weight: 400;
 }
 </style>
